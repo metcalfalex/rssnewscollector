@@ -1,11 +1,11 @@
 # rssnewscollector
 Serverless AWS pipeline to capture news headlines from rss
 
-Lambda: Grab rss xml file
-Lambda: Parse out fields of interest into csv
-Lambda: Save csv to S3
-Cloudwatch: Lambda execution scheduling
-Athena: Query data
+1. Lambda: Grab rss xml file
+2. Lambda: Parse out fields of interest into csv
+3. Lambda: Save csv to S3
+4. Cloudwatch: Lambda execution scheduling
+5. Athena: Query data
 
 ```python
 import urllib.request
